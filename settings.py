@@ -13,7 +13,6 @@ class Settings(BaseSettings):
     db_url: str
     redis_url: str
     stars_per_day: int
-    debug: bool
 
 @lru_cache
 def get_settings() -> Settings:
