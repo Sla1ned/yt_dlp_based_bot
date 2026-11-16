@@ -1,4 +1,4 @@
-# Telegram Video Downloader Bot
+# Telegram Video Downloader Bot 1.0.0
 
 [🇬🇧 English](#english) | [🇷🇺 Русский](#русский)
 
@@ -37,9 +37,7 @@
    - `REDIS_URL` — Redis connection string
 
 4. **Start PostgreSQL and Redis:**
-   ```bash
-   docker compose up -d
-   ```
+   Install PostgreSQL and Redis manually on your system, or run them via Docker if you have a `docker-compose.yml` file. Make sure they are running and accessible before starting the bo
 
 5. **Run the bot:**
    ```bash
@@ -86,9 +84,7 @@ Telegram-бот на `aiogram 3` для скачивания коротких в
    - `REDIS_URL` — строка подключения к Redis
 
 4. **Запусти PostgreSQL и Redis:**
-   ```bash
-   docker compose up -d
-   ```
+   Установи PostgreSQL и Redis вручную в своей системе (например, `sudo pacman -S postgresql redis` на Arch Linux) и запусти их. Либо используй Docker, если у тебя есть файл `docker-compose.yml`. Убедись, что базы данных запущены до старта бота.
 
 5. **Запусти бота:**
    ```bash
